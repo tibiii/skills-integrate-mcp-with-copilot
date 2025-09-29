@@ -1,3 +1,49 @@
+/* Inline signup form styles for activity cards */
+.inline-signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .inline-signup-form {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.inline-email {
+  flex: 1 1 200px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
